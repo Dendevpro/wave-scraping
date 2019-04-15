@@ -1,2 +1,2 @@
 # Wave-scraping
-_Full-stack web app built using MongoDB, Mongoose, Node.js, Express.js, Express-Handlebars, Cheerio and Axios._
+__Full-stack web app built using MongoDB, Mongoose, Node.js, Express.js, Express-Handlebars, Cheerio and Axios.
