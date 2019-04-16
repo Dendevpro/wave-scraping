@@ -1,0 +1,82 @@
+/* GENERAL STYLING */
+* {
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+.navbar {
+    background: none !important;
+    padding: 2rem;
+}
+
+.container-fluid :first-child {
+    margin-right: .5rem;
+}
+  
+.wrapper {
+    background-image: url("/assets/images/ws-hp-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 960px;
+}
+
+.jumbotron {
+    background: none;
+    margin: 6rem auto 0 12rem;
+}
+
+button {
+    border-radius: 3rem !important;
+}
+
+h1 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 5rem;
+    color: white;
+}
+
+H3 {
+    font-size: 2.6rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: black !important;
+}
+
+a:hover {
+    color: white !important;
+}
+
+a:active {
+    color: #555 !important;
+}
+
+.lead {
+    background: orange;
+    font-size: 1.4rem;
+    font-weight: 400;
+    width: 30%;
+    padding: .5rem;
+    text-align: center;
+}
+
+#content {
+    /* background: rgb(255, 224, 167); */
+    padding: 1rem 12rem;
+}

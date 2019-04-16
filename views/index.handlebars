@@ -1,0 +1,36 @@
+<div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img src="/assets/images/ws-logo-icon.svg" alt="WS-logo" width="300"></a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="/saved">Saved articles</a>
+                    <a class="nav-item nav-link get-new" href="#article-list">New articles</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    {{!-- <div class="container" id="hero"> --}}
+    <div class="jumbotron jumbotron-fluid text-left">
+        <h3>Make it or</h3>
+        <h1>Scrape it!</h1>
+        <p class="lead">Get the latest from The World Surf League</p>
+        <button class="btn btn-lg btn-outline-light">Go for it <i class="fas fa-chevron-down"></i></button>
+    </div>
+    {{!-- </div> --}}
+</div>
+
+<section id="content">
+    <div>
+        <h4 id="article-list">Articles</h4>
+        {{#each articles}}
+        <div class="card bg-light mb-3">
+            <div class="card-body">
+                <h5 class="card-title">{{title}}</h5>
+                <a href="{{link}}" class="card-link" target="_blank">View article on TechCrunch</a>
+                <a data-articleId="{{_id}}" class="btn btn-outline-dark save-btn">Save article</a>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</section>
